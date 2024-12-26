@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+button.back-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.back-button:hover {
+    background-color: #575757;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 0 10%;
+}
+
+section#home {
+    text-align: center;
+}
+
+section#about {
+    text-align: center;
+}
+
+section#about img,
+section#discography img,
+section#fanclub img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+section#about h2, 
+section#discography h2, 
+section#news h2, 
+section#tour h2, 
+section#fanclub h2, 
+section#contact h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+section#discography .album {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section#discography .album img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+section#news ul, 
+section#tour ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#news li, 
+section#tour li {
+    margin-bottom: 15px;
+}
+
+section#fanclub p {
+    text-align: center;
+    font-size: 18px;
+}
+
+section#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section#contact form input, 
+section#contact form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+section#contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+section#contact form button:hover {
+    background-color: #575757;
+}
+
+/* Подпись автора */
+.author-signature {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
